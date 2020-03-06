@@ -1,8 +1,16 @@
-const express = require("express")
-const app = express()
+const http = require("http");
 
-app.get("/", (req, res) => {
-	res.send("Hi!")
-})
+var server = http.createServer(requestHandler).listen(4000, error => {
+	if(error){
+		console.log("Error spinning up server");
+	}else{
+		console.log("Server Ready @ localhost:4000");
+	}
+});
 
-app.listen(4000, () => console.log("Server Ready"))
+function requestHandler(request, response){
+	var send_message = "data to send to client";
+	response.writeHead(200, {"Content-Type": "text/plain"});
+	response.write(send_message);
+	response.end("");
+}
