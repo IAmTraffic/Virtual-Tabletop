@@ -1,0 +1,21 @@
+{
+	"meta": {
+		"last_updated": "date_goes_here"
+	},
+	"objects": {
+		"obj1": {
+			"position": {
+				"x": 0,
+				"y": 1,
+				"z": 2
+			}
+		},
+		"obj2": {
+			"position": {
+				"x": 0,
+				"y": 11,
+				"z": 22
+			}
+		}
+	}
+}
