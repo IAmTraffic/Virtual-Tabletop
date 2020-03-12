@@ -1,0 +1,16 @@
+{
+	"meta": {
+		"last_updated": "date_goes_here"
+	},
+	"messages": {
+		"msg1": {
+			"contents": "What's the deal with airline food?",
+			"time_stamp": "date_goes_here",
+			"user": "karl98"
+		},"msg2": {
+			"contents": "Shut up Karl",
+			"time_stamp": "date_goes_here",
+			"user": "karlsukz"
+		},
+	}
+}

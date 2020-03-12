@@ -1,10 +1,25 @@
 <html>
 	<head>
+		<link rel="stylesheet" type="text/css" href="public/style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="script.js"></script>
+		<title>Virtual Table Top</title>
 	</head>
 
 	<body>
+		<canvas id="canvas" tabindex=1>Your browser doesn't seem to support HTML Canvases. Please try a different browser.</canvas>
+		<div id="chat_wrapper">
+			<div id="old_messages_wrapper"></div>
+			<div id="send_message_wrapper">
+				<textarea id="message_box"></textarea>
+				<button id="send_message_btn">Send Message</button>
+			</div>
+		</div>
+		<div id="toolbar_wrapper"></div>
+		<!-- Things the UI needs:
+			Table Top (Centered)
+			Chat (Side)
+			VoIP (Bottom)
+			Toolbar (Side? Top?) -->
 	</body>
 </html>
